@@ -1,0 +1,293 @@
+root - INFO - 参数配置: Namespace(device='cuda:0', batchsize=16, learning_rate=0.01, epochs=30, model='small_deconv3d', center_loss=False, conf_thres=0.4, label_smooth=0.1, specific_cls_sample=False, num_class=5, p_dropout=0.3, p_conv_dropout=0.3)
+root - INFO - Epoch 0 is starting
+root - INFO - Train Epoch: 0 [0/15500 (0%)]	Loss: 0.720134
+root - INFO - Train Epoch: 0 [800/15500 (5%)]	Loss: 0.677307
+root - INFO - Train Epoch: 0 [1600/15500 (10%)]	Loss: 0.623349
+root - INFO - Train Epoch: 0 [2400/15500 (15%)]	Loss: 0.641506
+root - INFO - Train Epoch: 0 [3200/15500 (21%)]	Loss: 0.679941
+root - INFO - Train Epoch: 0 [4000/15500 (26%)]	Loss: 0.630016
+root - INFO - Train Epoch: 0 [4800/15500 (31%)]	Loss: 0.624546
+root - INFO - Train Epoch: 0 [5600/15500 (36%)]	Loss: 0.639830
+root - INFO - Train Epoch: 0 [6400/15500 (41%)]	Loss: 0.630772
+root - INFO - Train Epoch: 0 [7200/15500 (46%)]	Loss: 0.648978
+root - INFO - Train Epoch: 0 [8000/15500 (52%)]	Loss: 0.642436
+root - INFO - Train Epoch: 0 [8800/15500 (57%)]	Loss: 0.628005
+root - INFO - Train Epoch: 0 [9600/15500 (62%)]	Loss: 0.647917
+root - INFO - Train Epoch: 0 [10400/15500 (67%)]	Loss: 0.621850
+root - INFO - Train Epoch: 0 [11200/15500 (72%)]	Loss: 0.631827
+root - INFO - Train Epoch: 0 [12000/15500 (77%)]	Loss: 0.630761
+root - INFO - Train Epoch: 0 [12800/15500 (83%)]	Loss: 0.662542
+root - INFO - Train Epoch: 0 [13600/15500 (88%)]	Loss: 0.639888
+root - INFO - Train Epoch: 0 [14400/15500 (93%)]	Loss: 0.603459
+root - INFO - Train Epoch: 0 [15200/15500 (98%)]	Loss: 0.663160
+root - INFO - Class 0 枪支部件: Precision: 0.2315, Recall: 0.1606, F1: 0.1896
+root - INFO - Class 1 枪支: Precision: 0.3336, Recall: 0.5204, F1: 0.4066
+root - INFO - Class 2 刀具: Precision: 0.4943, Recall: 0.7881, F1: 0.6075
+root - INFO - Class 3 打火机: Precision: 0.4612, Recall: 0.8124, F1: 0.5884
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3774, Recall: 0.6495, F1: 0.4774
+root - INFO - Overall: Precision: 0.4087, Recall: 0.6183, F1: 0.4921
+root - INFO - Class 0 枪支部件: Precision: 0.1250, Recall: 0.0107, F1: 0.0198
+root - INFO - Class 1 枪支: Precision: 0.3418, Recall: 1.0000, F1: 0.5095
+root - INFO - Class 2 刀具: Precision: 0.0891, Recall: 0.0164, F1: 0.0276
+root - INFO - Class 3 打火机: Precision: 0.9680, Recall: 0.4047, F1: 0.5708
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0189, Recall: 0.0039, F1: 0.0064
+root - INFO - Overall: Precision: 0.3476, Recall: 0.2591, F1: 0.2969
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+root - INFO - Epoch 1 is starting
+root - INFO - Train Epoch: 1 [0/15500 (0%)]	Loss: 0.631841
+root - INFO - Train Epoch: 1 [800/15500 (5%)]	Loss: 0.645685
+root - INFO - Train Epoch: 1 [1600/15500 (10%)]	Loss: 0.623586
+root - INFO - Train Epoch: 1 [2400/15500 (15%)]	Loss: 0.564521
+root - INFO - Train Epoch: 1 [3200/15500 (21%)]	Loss: 0.633164
+root - INFO - Train Epoch: 1 [4000/15500 (26%)]	Loss: 0.627975
+root - INFO - Train Epoch: 1 [4800/15500 (31%)]	Loss: 0.616611
+root - INFO - Train Epoch: 1 [5600/15500 (36%)]	Loss: 0.626149
+root - INFO - Train Epoch: 1 [6400/15500 (41%)]	Loss: 0.662284
+root - INFO - Train Epoch: 1 [7200/15500 (46%)]	Loss: 0.656586
+root - INFO - Train Epoch: 1 [8000/15500 (52%)]	Loss: 0.616766
+root - INFO - Train Epoch: 1 [8800/15500 (57%)]	Loss: 0.612238
+root - INFO - Train Epoch: 1 [9600/15500 (62%)]	Loss: 0.617081
+root - INFO - Train Epoch: 1 [10400/15500 (67%)]	Loss: 0.617933
+root - INFO - Train Epoch: 1 [11200/15500 (72%)]	Loss: 0.623623
+root - INFO - Train Epoch: 1 [12000/15500 (77%)]	Loss: 0.594967
+root - INFO - Train Epoch: 1 [12800/15500 (83%)]	Loss: 0.675743
+root - INFO - Train Epoch: 1 [13600/15500 (88%)]	Loss: 0.568122
+root - INFO - Train Epoch: 1 [14400/15500 (93%)]	Loss: 0.645794
+root - INFO - Train Epoch: 1 [15200/15500 (98%)]	Loss: 0.624180
+root - INFO - Class 0 枪支部件: Precision: 0.2664, Recall: 0.0775, F1: 0.1200
+root - INFO - Class 1 枪支: Precision: 0.3775, Recall: 0.4878, F1: 0.4256
+root - INFO - Class 2 刀具: Precision: 0.5188, Recall: 0.7775, F1: 0.6223
+root - INFO - Class 3 打火机: Precision: 0.4822, Recall: 0.8656, F1: 0.6194
+root - INFO - Class 4 充电宝锂电池: Precision: 0.4125, Recall: 0.6590, F1: 0.5074
+root - INFO - Overall: Precision: 0.4489, Recall: 0.6100, F1: 0.5172
+root - INFO - Class 0 枪支部件: Precision: 0.2941, Recall: 0.0107, F1: 0.0207
+root - INFO - Class 1 枪支: Precision: 0.4127, Recall: 0.9560, F1: 0.5765
+root - INFO - Class 2 刀具: Precision: 0.2157, Recall: 0.0200, F1: 0.0366
+root - INFO - Class 3 打火机: Precision: 0.8980, Recall: 0.4415, F1: 0.5919
+root - INFO - Class 4 充电宝锂电池: Precision: 0.2045, Recall: 0.0175, F1: 0.0322
+root - INFO - Overall: Precision: 0.4509, Recall: 0.2591, F1: 0.3291
+root - INFO - Epoch 2 is starting
+root - INFO - Train Epoch: 2 [0/15500 (0%)]	Loss: 0.621377
+root - INFO - Train Epoch: 2 [800/15500 (5%)]	Loss: 0.596323
+root - INFO - Train Epoch: 2 [1600/15500 (10%)]	Loss: 0.590883
+root - INFO - Train Epoch: 2 [2400/15500 (15%)]	Loss: 0.616307
+root - INFO - Train Epoch: 2 [3200/15500 (21%)]	Loss: 0.631835
+root - INFO - Train Epoch: 2 [4000/15500 (26%)]	Loss: 0.619186
+root - INFO - Train Epoch: 2 [4800/15500 (31%)]	Loss: 0.660811
+root - INFO - Train Epoch: 2 [5600/15500 (36%)]	Loss: 0.631383
+root - INFO - Train Epoch: 2 [6400/15500 (41%)]	Loss: 0.616142
+root - INFO - Train Epoch: 2 [7200/15500 (46%)]	Loss: 0.619855
+root - INFO - Train Epoch: 2 [8000/15500 (52%)]	Loss: 0.630679
+root - INFO - Train Epoch: 2 [8800/15500 (57%)]	Loss: 0.627627
+root - INFO - Train Epoch: 2 [9600/15500 (62%)]	Loss: 0.667401
+root - INFO - Train Epoch: 2 [10400/15500 (67%)]	Loss: 0.614949
+root - INFO - Train Epoch: 2 [11200/15500 (72%)]	Loss: 0.597479
+root - INFO - Train Epoch: 2 [12000/15500 (77%)]	Loss: 0.630687
+root - INFO - Train Epoch: 2 [12800/15500 (83%)]	Loss: 0.650471
+root - INFO - Train Epoch: 2 [13600/15500 (88%)]	Loss: 0.610895
+root - INFO - Train Epoch: 2 [14400/15500 (93%)]	Loss: 0.640635
+root - INFO - Train Epoch: 2 [15200/15500 (98%)]	Loss: 0.619898
+root - INFO - Class 0 枪支部件: Precision: 0.2597, Recall: 0.0651, F1: 0.1041
+root - INFO - Class 1 枪支: Precision: 0.3864, Recall: 0.5541, F1: 0.4553
+root - INFO - Class 2 刀具: Precision: 0.5172, Recall: 0.7825, F1: 0.6228
+root - INFO - Class 3 打火机: Precision: 0.4799, Recall: 0.8596, F1: 0.6159
+root - INFO - Class 4 充电宝锂电池: Precision: 0.4210, Recall: 0.6974, F1: 0.5251
+root - INFO - Overall: Precision: 0.4508, Recall: 0.6288, F1: 0.5251
+root - INFO - Class 0 枪支部件: Precision: 0.2500, Recall: 0.0043, F1: 0.0084
+root - INFO - Class 1 枪支: Precision: 0.4117, Recall: 0.9626, F1: 0.5767
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.9400, Recall: 0.3144, F1: 0.4712
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3077, Recall: 0.0155, F1: 0.0296
+root - INFO - Overall: Precision: 0.4502, Recall: 0.2372, F1: 0.3107
+root - INFO - Epoch 3 is starting
+root - INFO - Train Epoch: 3 [0/15500 (0%)]	Loss: 0.691287
+root - INFO - Train Epoch: 3 [800/15500 (5%)]	Loss: 0.599079
+root - INFO - Train Epoch: 3 [1600/15500 (10%)]	Loss: 0.610377
+root - INFO - Train Epoch: 3 [2400/15500 (15%)]	Loss: 0.676414
+root - INFO - Train Epoch: 3 [3200/15500 (21%)]	Loss: 0.627308
+root - INFO - Train Epoch: 3 [4000/15500 (26%)]	Loss: 0.632251
+root - INFO - Train Epoch: 3 [4800/15500 (31%)]	Loss: 0.663458
+root - INFO - Train Epoch: 3 [5600/15500 (36%)]	Loss: 0.618027
+root - INFO - Train Epoch: 3 [6400/15500 (41%)]	Loss: 0.640872
+root - INFO - Train Epoch: 3 [7200/15500 (46%)]	Loss: 0.675327
+root - INFO - Train Epoch: 3 [8000/15500 (52%)]	Loss: 0.629322
+root - INFO - Train Epoch: 3 [8800/15500 (57%)]	Loss: 0.655672
+root - INFO - Train Epoch: 3 [9600/15500 (62%)]	Loss: 0.624831
+root - INFO - Train Epoch: 3 [10400/15500 (67%)]	Loss: 0.608356
+root - INFO - Train Epoch: 3 [11200/15500 (72%)]	Loss: 0.612292
+root - INFO - Train Epoch: 3 [12000/15500 (77%)]	Loss: 0.599817
+root - INFO - Train Epoch: 3 [12800/15500 (83%)]	Loss: 0.642299
+root - INFO - Train Epoch: 3 [13600/15500 (88%)]	Loss: 0.634875
+root - INFO - Train Epoch: 3 [14400/15500 (93%)]	Loss: 0.602860
+root - INFO - Train Epoch: 3 [15200/15500 (98%)]	Loss: 0.581274
+root - INFO - Class 0 枪支部件: Precision: 0.2779, Recall: 0.0516, F1: 0.0871
+root - INFO - Class 1 枪支: Precision: 0.3988, Recall: 0.5755, F1: 0.4711
+root - INFO - Class 2 刀具: Precision: 0.5171, Recall: 0.7907, F1: 0.6253
+root - INFO - Class 3 打火机: Precision: 0.4818, Recall: 0.8933, F1: 0.6260
+root - INFO - Class 4 充电宝锂电池: Precision: 0.4207, Recall: 0.7081, F1: 0.5278
+root - INFO - Overall: Precision: 0.4555, Recall: 0.6421, F1: 0.5330
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.3977, Recall: 0.9824, F1: 0.5662
+root - INFO - Class 2 刀具: Precision: 0.0690, Recall: 0.0036, F1: 0.0069
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.2943, F1: 0.4548
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3000, Recall: 0.0117, F1: 0.0224
+root - INFO - Overall: Precision: 0.4296, Recall: 0.2376, F1: 0.3060
+root - INFO - Epoch 4 is starting
+root - INFO - Train Epoch: 4 [0/15500 (0%)]	Loss: 0.626557
+root - INFO - Train Epoch: 4 [800/15500 (5%)]	Loss: 0.603129
+root - INFO - Train Epoch: 4 [1600/15500 (10%)]	Loss: 0.584120
+root - INFO - Train Epoch: 4 [2400/15500 (15%)]	Loss: 0.561293
+root - INFO - Train Epoch: 4 [3200/15500 (21%)]	Loss: 0.578927
+root - INFO - Train Epoch: 4 [4000/15500 (26%)]	Loss: 0.646640
+root - INFO - Train Epoch: 4 [4800/15500 (31%)]	Loss: 0.627664
+root - INFO - Train Epoch: 4 [5600/15500 (36%)]	Loss: 0.599765
+root - INFO - Train Epoch: 4 [6400/15500 (41%)]	Loss: 0.605181
+root - INFO - Train Epoch: 4 [7200/15500 (46%)]	Loss: 0.607331
+root - INFO - Train Epoch: 4 [8000/15500 (52%)]	Loss: 0.649381
+root - INFO - Train Epoch: 4 [8800/15500 (57%)]	Loss: 0.624479
+root - INFO - Train Epoch: 4 [9600/15500 (62%)]	Loss: 0.590740
+root - INFO - Train Epoch: 4 [10400/15500 (67%)]	Loss: 0.619247
+root - INFO - Train Epoch: 4 [11200/15500 (72%)]	Loss: 0.619036
+root - INFO - Train Epoch: 4 [12000/15500 (77%)]	Loss: 0.634474
+root - INFO - Train Epoch: 4 [12800/15500 (83%)]	Loss: 0.585921
+root - INFO - Train Epoch: 4 [13600/15500 (88%)]	Loss: 0.637359
+root - INFO - Train Epoch: 4 [14400/15500 (93%)]	Loss: 0.599891
+root - INFO - Train Epoch: 4 [15200/15500 (98%)]	Loss: 0.565757
+root - INFO - Class 0 枪支部件: Precision: 0.2698, Recall: 0.0339, F1: 0.0602
+root - INFO - Class 1 枪支: Precision: 0.4122, Recall: 0.6285, F1: 0.4979
+root - INFO - Class 2 刀具: Precision: 0.5167, Recall: 0.8106, F1: 0.6311
+root - INFO - Class 3 打火机: Precision: 0.4949, Recall: 0.8834, F1: 0.6344
+root - INFO - Class 4 充电宝锂电池: Precision: 0.4272, Recall: 0.7376, F1: 0.5410
+root - INFO - Overall: Precision: 0.4636, Recall: 0.6584, F1: 0.5441
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.3841, Recall: 0.9868, F1: 0.5530
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.8984, Recall: 0.3846, F1: 0.5386
+root - INFO - Class 4 充电宝锂电池: Precision: 0.2800, Recall: 0.0136, F1: 0.0259
+root - INFO - Overall: Precision: 0.4306, Recall: 0.2499, F1: 0.3163
+root - INFO - Epoch 5 is starting
+root - INFO - Train Epoch: 5 [0/15500 (0%)]	Loss: 0.609853
+root - INFO - Train Epoch: 5 [800/15500 (5%)]	Loss: 0.574636
+root - INFO - Train Epoch: 5 [1600/15500 (10%)]	Loss: 0.611683
+root - INFO - Train Epoch: 5 [2400/15500 (15%)]	Loss: 0.611719
+root - INFO - Train Epoch: 5 [3200/15500 (21%)]	Loss: 0.567971
+root - INFO - Train Epoch: 5 [4000/15500 (26%)]	Loss: 0.597775
+root - INFO - Train Epoch: 5 [4800/15500 (31%)]	Loss: 0.599527
+root - INFO - Train Epoch: 5 [5600/15500 (36%)]	Loss: 0.641586
+root - INFO - Train Epoch: 5 [6400/15500 (41%)]	Loss: 0.645124
+root - INFO - Train Epoch: 5 [7200/15500 (46%)]	Loss: 0.634447
+root - INFO - Train Epoch: 5 [8000/15500 (52%)]	Loss: 0.630377
+root - INFO - Train Epoch: 5 [8800/15500 (57%)]	Loss: 0.655277
+root - INFO - Train Epoch: 5 [9600/15500 (62%)]	Loss: 0.673002
+root - INFO - Train Epoch: 5 [10400/15500 (67%)]	Loss: 0.638384
+root - INFO - Train Epoch: 5 [11200/15500 (72%)]	Loss: 0.618924
+root - INFO - Train Epoch: 5 [12000/15500 (77%)]	Loss: 0.624966
+root - INFO - Train Epoch: 5 [12800/15500 (83%)]	Loss: 0.644656
+root - INFO - Train Epoch: 5 [13600/15500 (88%)]	Loss: 0.617938
+root - INFO - Train Epoch: 5 [14400/15500 (93%)]	Loss: 0.615297
+root - INFO - Train Epoch: 5 [15200/15500 (98%)]	Loss: 0.598128
+root - INFO - Class 0 枪支部件: Precision: 0.2903, Recall: 0.0266, F1: 0.0488
+root - INFO - Class 1 枪支: Precision: 0.4154, Recall: 0.6402, F1: 0.5039
+root - INFO - Class 2 刀具: Precision: 0.5155, Recall: 0.8220, F1: 0.6336
+root - INFO - Class 3 打火机: Precision: 0.4940, Recall: 0.8894, F1: 0.6352
+root - INFO - Class 4 充电宝锂电池: Precision: 0.4280, Recall: 0.7640, F1: 0.5487
+root - INFO - Overall: Precision: 0.4647, Recall: 0.6691, F1: 0.5485
+root - INFO - Class 0 枪支部件: Precision: 0.3750, Recall: 0.0064, F1: 0.0127
+root - INFO - Class 1 枪支: Precision: 0.4217, Recall: 0.9648, F1: 0.5869
+root - INFO - Class 2 刀具: Precision: 0.2400, Recall: 0.0218, F1: 0.0400
+root - INFO - Class 3 打火机: Precision: 0.9091, Recall: 0.4013, F1: 0.5568
+root - INFO - Class 4 充电宝锂电池: Precision: 0.5489, Recall: 0.1417, F1: 0.2253
+root - INFO - Overall: Precision: 0.4743, Recall: 0.2832, F1: 0.3546
+root - INFO - Early Stopping @ epoch 5

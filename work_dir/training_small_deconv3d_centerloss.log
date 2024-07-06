@@ -1,0 +1,784 @@
+root - INFO - 参数配置: Namespace(device='cuda:0', batchsize=16, learning_rate=0.01, epochs=30, model='small_deconv3d_centerloss', center_loss=True, conf_thres=0.4, label_smooth=0.1, specific_cls_sample=True, num_class=5, p_dropout=0.1, p_conv_dropout=0.1)
+root - INFO - Epoch 0 is starting
+root - INFO - Train Epoch: 0 [0/15500 (0%)]	Loss: 0.639244
+root - INFO - Train Epoch: 0 [800/15500 (10%)]	Loss: 0.342613
+root - INFO - Train Epoch: 0 [1600/15500 (21%)]	Loss: 0.352793
+root - INFO - Train Epoch: 0 [2400/15500 (31%)]	Loss: 0.337644
+root - INFO - Train Epoch: 0 [3200/15500 (41%)]	Loss: 0.692483
+root - INFO - Train Epoch: 0 [4000/15500 (52%)]	Loss: 0.689834
+root - INFO - Train Epoch: 0 [4800/15500 (62%)]	Loss: 0.690495
+root - INFO - Train Epoch: 0 [5600/15500 (72%)]	Loss: 0.690799
+root - INFO - Train Epoch: 0 [6400/15500 (82%)]	Loss: 0.691617
+root - INFO - Train Epoch: 0 [7200/15500 (93%)]	Loss: 0.695293
+root - INFO - Class 0 枪支部件: Precision: 0.5799, Recall: 0.9793, F1: 0.7284
+root - INFO - Class 1 枪支: Precision: 0.7320, Recall: 0.9892, F1: 0.8414
+root - INFO - Class 2 刀具: Precision: 0.4337, Recall: 0.9587, F1: 0.5973
+root - INFO - Class 3 打火机: Precision: 0.3518, Recall: 0.9565, F1: 0.5144
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3489, Recall: 0.9778, F1: 0.5143
+root - INFO - Overall: Precision: 0.5092, Recall: 0.9765, F1: 0.6694
+root - INFO - Class 0 枪支部件: Precision: 0.6809, Recall: 0.1373, F1: 0.2286
+root - INFO - Class 1 枪支: Precision: 0.5562, Recall: 1.0000, F1: 0.7148
+root - INFO - Class 2 刀具: Precision: 0.2875, Recall: 0.3614, F1: 0.3203
+root - INFO - Class 3 打火机: Precision: 0.0899, Recall: 0.5079, F1: 0.1527
+root - INFO - Class 4 充电宝锂电池: Precision: 0.1528, Recall: 0.0505, F1: 0.0759
+root - INFO - Overall: Precision: 0.3944, Recall: 0.4493, F1: 0.4201
+matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+matplotlib.font_manager - DEBUG - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+matplotlib.font_manager - DEBUG - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/opt/conda/envs/pytorch_lwz/lib/python3.9/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+root - INFO - Epoch 1 is starting
+root - INFO - Train Epoch: 1 [0/15500 (0%)]	Loss: 0.701649
+root - INFO - Train Epoch: 1 [800/15500 (10%)]	Loss: 0.358994
+root - INFO - Train Epoch: 1 [1600/15500 (21%)]	Loss: 0.346918
+root - INFO - Train Epoch: 1 [2400/15500 (31%)]	Loss: 0.334740
+root - INFO - Train Epoch: 1 [3200/15500 (41%)]	Loss: 0.684992
+root - INFO - Train Epoch: 1 [4000/15500 (52%)]	Loss: 0.685652
+root - INFO - Train Epoch: 1 [4800/15500 (62%)]	Loss: 0.682233
+root - INFO - Train Epoch: 1 [5600/15500 (72%)]	Loss: 0.690040
+root - INFO - Train Epoch: 1 [6400/15500 (82%)]	Loss: 0.689737
+root - INFO - Train Epoch: 1 [7200/15500 (93%)]	Loss: 0.696986
+root - INFO - Class 0 枪支部件: Precision: 0.5738, Recall: 0.9911, F1: 0.7268
+root - INFO - Class 1 枪支: Precision: 0.7122, Recall: 0.9879, F1: 0.8277
+root - INFO - Class 2 刀具: Precision: 0.4247, Recall: 0.9962, F1: 0.5956
+root - INFO - Class 3 打火机: Precision: 0.3442, Recall: 0.9977, F1: 0.5118
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3424, Recall: 0.9936, F1: 0.5093
+root - INFO - Overall: Precision: 0.4973, Recall: 0.9919, F1: 0.6625
+root - INFO - Class 0 枪支部件: Precision: 1.0000, Recall: 0.0064, F1: 0.0128
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5492, Recall: 0.3156, F1: 0.4009
+root - INFO - Epoch 2 is starting
+root - INFO - Train Epoch: 2 [0/15500 (0%)]	Loss: 0.704677
+root - INFO - Train Epoch: 2 [800/15500 (10%)]	Loss: 0.361763
+root - INFO - Train Epoch: 2 [1600/15500 (21%)]	Loss: 0.337518
+root - INFO - Train Epoch: 2 [2400/15500 (31%)]	Loss: 0.343924
+root - INFO - Train Epoch: 2 [3200/15500 (41%)]	Loss: 0.679378
+root - INFO - Train Epoch: 2 [4000/15500 (52%)]	Loss: 0.682977
+root - INFO - Train Epoch: 2 [4800/15500 (62%)]	Loss: 0.675906
+root - INFO - Train Epoch: 2 [5600/15500 (72%)]	Loss: 0.689500
+root - INFO - Train Epoch: 2 [6400/15500 (82%)]	Loss: 0.687877
+root - INFO - Train Epoch: 2 [7200/15500 (93%)]	Loss: 0.698925
+root - INFO - Class 0 枪支部件: Precision: 0.5707, Recall: 0.9860, F1: 0.7229
+root - INFO - Class 1 枪支: Precision: 0.7177, Recall: 0.9922, F1: 0.8329
+root - INFO - Class 2 刀具: Precision: 0.4283, Recall: 0.9962, F1: 0.5990
+root - INFO - Class 3 打火机: Precision: 0.3469, Recall: 0.9948, F1: 0.5144
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3459, Recall: 0.9913, F1: 0.5128
+root - INFO - Overall: Precision: 0.5002, Recall: 0.9914, F1: 0.6649
+root - INFO - Class 0 枪支部件: Precision: 1.0000, Recall: 0.0043, F1: 0.0085
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5499, Recall: 0.3150, F1: 0.4005
+root - INFO - Epoch 3 is starting
+root - INFO - Train Epoch: 3 [0/15500 (0%)]	Loss: 0.763918
+root - INFO - Train Epoch: 3 [800/15500 (10%)]	Loss: 0.360520
+root - INFO - Train Epoch: 3 [1600/15500 (21%)]	Loss: 0.356732
+root - INFO - Train Epoch: 3 [2400/15500 (31%)]	Loss: 0.341049
+root - INFO - Train Epoch: 3 [3200/15500 (41%)]	Loss: 0.675100
+root - INFO - Train Epoch: 3 [4000/15500 (52%)]	Loss: 0.681313
+root - INFO - Train Epoch: 3 [4800/15500 (62%)]	Loss: 0.670858
+root - INFO - Train Epoch: 3 [5600/15500 (72%)]	Loss: 0.689183
+root - INFO - Train Epoch: 3 [6400/15500 (82%)]	Loss: 0.686483
+root - INFO - Train Epoch: 3 [7200/15500 (93%)]	Loss: 0.701106
+root - INFO - Class 0 枪支部件: Precision: 0.5684, Recall: 0.9898, F1: 0.7221
+root - INFO - Class 1 枪支: Precision: 0.7222, Recall: 0.9909, F1: 0.8354
+root - INFO - Class 2 刀具: Precision: 0.4276, Recall: 0.9958, F1: 0.5983
+root - INFO - Class 3 打火机: Precision: 0.3462, Recall: 0.9919, F1: 0.5133
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3452, Recall: 0.9878, F1: 0.5116
+root - INFO - Overall: Precision: 0.5001, Recall: 0.9911, F1: 0.6648
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 4 is starting
+root - INFO - Train Epoch: 4 [0/15500 (0%)]	Loss: 0.833839
+root - INFO - Train Epoch: 4 [800/15500 (10%)]	Loss: 0.357563
+root - INFO - Train Epoch: 4 [1600/15500 (21%)]	Loss: 0.331388
+root - INFO - Train Epoch: 4 [2400/15500 (31%)]	Loss: 0.339318
+root - INFO - Train Epoch: 4 [3200/15500 (41%)]	Loss: 0.672023
+root - INFO - Train Epoch: 4 [4000/15500 (52%)]	Loss: 0.680297
+root - INFO - Train Epoch: 4 [4800/15500 (62%)]	Loss: 0.667128
+root - INFO - Train Epoch: 4 [5600/15500 (72%)]	Loss: 0.690543
+root - INFO - Train Epoch: 4 [6400/15500 (82%)]	Loss: 0.685863
+root - INFO - Train Epoch: 4 [7200/15500 (93%)]	Loss: 0.703203
+root - INFO - Class 0 枪支部件: Precision: 0.5674, Recall: 0.9874, F1: 0.7207
+root - INFO - Class 1 枪支: Precision: 0.7220, Recall: 0.9903, F1: 0.8351
+root - INFO - Class 2 刀具: Precision: 0.4297, Recall: 0.9972, F1: 0.6006
+root - INFO - Class 3 打火机: Precision: 0.3485, Recall: 0.9872, F1: 0.5151
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3477, Recall: 0.9866, F1: 0.5142
+root - INFO - Overall: Precision: 0.5016, Recall: 0.9897, F1: 0.6658
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 5 is starting
+root - INFO - Train Epoch: 5 [0/15500 (0%)]	Loss: 0.774167
+root - INFO - Train Epoch: 5 [800/15500 (10%)]	Loss: 0.370303
+root - INFO - Train Epoch: 5 [1600/15500 (21%)]	Loss: 0.345563
+root - INFO - Train Epoch: 5 [2400/15500 (31%)]	Loss: 0.334735
+root - INFO - Train Epoch: 5 [3200/15500 (41%)]	Loss: 0.669616
+root - INFO - Train Epoch: 5 [4000/15500 (52%)]	Loss: 0.679712
+root - INFO - Train Epoch: 5 [4800/15500 (62%)]	Loss: 0.664116
+root - INFO - Train Epoch: 5 [5600/15500 (72%)]	Loss: 0.689787
+root - INFO - Train Epoch: 5 [6400/15500 (82%)]	Loss: 0.684186
+root - INFO - Train Epoch: 5 [7200/15500 (93%)]	Loss: 0.705343
+root - INFO - Class 0 枪支部件: Precision: 0.5660, Recall: 0.9876, F1: 0.7196
+root - INFO - Class 1 枪支: Precision: 0.7248, Recall: 0.9905, F1: 0.8370
+root - INFO - Class 2 刀具: Precision: 0.4296, Recall: 0.9977, F1: 0.6006
+root - INFO - Class 3 打火机: Precision: 0.3478, Recall: 0.9843, F1: 0.5140
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3476, Recall: 0.9843, F1: 0.5138
+root - INFO - Overall: Precision: 0.5017, Recall: 0.9893, F1: 0.6658
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 6 is starting
+root - INFO - Train Epoch: 6 [0/15500 (0%)]	Loss: 0.807249
+root - INFO - Train Epoch: 6 [800/15500 (10%)]	Loss: 0.398212
+root - INFO - Train Epoch: 6 [1600/15500 (21%)]	Loss: 0.340964
+root - INFO - Train Epoch: 6 [2400/15500 (31%)]	Loss: 0.353166
+root - INFO - Train Epoch: 6 [3200/15500 (41%)]	Loss: 0.667753
+root - INFO - Train Epoch: 6 [4000/15500 (52%)]	Loss: 0.679421
+root - INFO - Train Epoch: 6 [4800/15500 (62%)]	Loss: 0.661616
+root - INFO - Train Epoch: 6 [5600/15500 (72%)]	Loss: 0.689217
+root - INFO - Train Epoch: 6 [6400/15500 (82%)]	Loss: 0.684487
+root - INFO - Train Epoch: 6 [7200/15500 (93%)]	Loss: 0.707411
+root - INFO - Class 0 枪支部件: Precision: 0.5643, Recall: 0.9890, F1: 0.7186
+root - INFO - Class 1 枪支: Precision: 0.7237, Recall: 0.9913, F1: 0.8366
+root - INFO - Class 2 刀具: Precision: 0.4278, Recall: 0.9986, F1: 0.5990
+root - INFO - Class 3 打火机: Precision: 0.3485, Recall: 0.9884, F1: 0.5154
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3476, Recall: 0.9872, F1: 0.5141
+root - INFO - Overall: Precision: 0.5008, Recall: 0.9909, F1: 0.6654
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 7 is starting
+root - INFO - Train Epoch: 7 [0/15500 (0%)]	Loss: 0.740002
+root - INFO - Train Epoch: 7 [800/15500 (10%)]	Loss: 0.404127
+root - INFO - Train Epoch: 7 [1600/15500 (21%)]	Loss: 0.336277
+root - INFO - Train Epoch: 7 [2400/15500 (31%)]	Loss: 0.331935
+root - INFO - Train Epoch: 7 [3200/15500 (41%)]	Loss: 0.666417
+root - INFO - Train Epoch: 7 [4000/15500 (52%)]	Loss: 0.679416
+root - INFO - Train Epoch: 7 [4800/15500 (62%)]	Loss: 0.659795
+root - INFO - Train Epoch: 7 [5600/15500 (72%)]	Loss: 0.689688
+root - INFO - Train Epoch: 7 [6400/15500 (82%)]	Loss: 0.684375
+root - INFO - Train Epoch: 7 [7200/15500 (93%)]	Loss: 0.709239
+root - INFO - Class 0 枪支部件: Precision: 0.5691, Recall: 0.9879, F1: 0.7222
+root - INFO - Class 1 枪支: Precision: 0.7298, Recall: 0.9924, F1: 0.8411
+root - INFO - Class 2 刀具: Precision: 0.4301, Recall: 0.9991, F1: 0.6013
+root - INFO - Class 3 打火机: Precision: 0.3487, Recall: 0.9948, F1: 0.5163
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3466, Recall: 0.9924, F1: 0.5137
+root - INFO - Overall: Precision: 0.5028, Recall: 0.9925, F1: 0.6675
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 8 is starting
+root - INFO - Train Epoch: 8 [0/15500 (0%)]	Loss: 0.689303
+root - INFO - Train Epoch: 8 [800/15500 (10%)]	Loss: 0.334478
+root - INFO - Train Epoch: 8 [1600/15500 (21%)]	Loss: 0.333329
+root - INFO - Train Epoch: 8 [2400/15500 (31%)]	Loss: 0.336988
+root - INFO - Train Epoch: 8 [3200/15500 (41%)]	Loss: 0.665407
+root - INFO - Train Epoch: 8 [4000/15500 (52%)]	Loss: 0.679493
+root - INFO - Train Epoch: 8 [4800/15500 (62%)]	Loss: 0.658390
+root - INFO - Train Epoch: 8 [5600/15500 (72%)]	Loss: 0.690995
+root - INFO - Train Epoch: 8 [6400/15500 (82%)]	Loss: 0.684304
+root - INFO - Train Epoch: 8 [7200/15500 (93%)]	Loss: 0.710780
+root - INFO - Class 0 枪支部件: Precision: 0.5757, Recall: 0.9895, F1: 0.7279
+root - INFO - Class 1 枪支: Precision: 0.7322, Recall: 0.9922, F1: 0.8426
+root - INFO - Class 2 刀具: Precision: 0.4307, Recall: 1.0000, F1: 0.6021
+root - INFO - Class 3 打火机: Precision: 0.3487, Recall: 0.9971, F1: 0.5167
+root - INFO - Class 4 充电宝锂电池: Precision: 0.3471, Recall: 0.9953, F1: 0.5147
+root - INFO - Overall: Precision: 0.5047, Recall: 0.9936, F1: 0.6694
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 9 is starting
+root - INFO - Train Epoch: 9 [0/15500 (0%)]	Loss: 0.732368
+root - INFO - Train Epoch: 9 [800/15500 (10%)]	Loss: 0.341720
+root - INFO - Train Epoch: 9 [1600/15500 (21%)]	Loss: 0.349931
+root - INFO - Train Epoch: 9 [2400/15500 (31%)]	Loss: 0.332028
+root - INFO - Train Epoch: 9 [3200/15500 (41%)]	Loss: 0.664624
+root - INFO - Train Epoch: 9 [4000/15500 (52%)]	Loss: 0.679658
+root - INFO - Train Epoch: 9 [4800/15500 (62%)]	Loss: 0.657260
+root - INFO - Train Epoch: 9 [5600/15500 (72%)]	Loss: 0.690569
+root - INFO - Train Epoch: 9 [6400/15500 (82%)]	Loss: 0.684323
+root - INFO - Train Epoch: 9 [7200/15500 (93%)]	Loss: 0.712146
+root - INFO - Class 0 枪支部件: Precision: 0.5772, Recall: 0.9900, F1: 0.7293
+root - INFO - Class 1 枪支: Precision: 0.7318, Recall: 0.9928, F1: 0.8426
+root - INFO - Class 2 刀具: Precision: 0.4306, Recall: 0.9995, F1: 0.6019
+root - INFO - Class 3 打火机: Precision: 0.3360, Recall: 0.7017, F1: 0.4544
+root - INFO - Class 4 充电宝锂电池: Precision: 0.2740, Recall: 0.2146, F1: 0.2407
+root - INFO - Overall: Precision: 0.5327, Recall: 0.8620, F1: 0.6584
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 10 is starting
+root - INFO - Train Epoch: 10 [0/15500 (0%)]	Loss: 0.708997
+root - INFO - Train Epoch: 10 [800/15500 (10%)]	Loss: 0.333360
+root - INFO - Train Epoch: 10 [1600/15500 (21%)]	Loss: 0.345719
+root - INFO - Train Epoch: 10 [2400/15500 (31%)]	Loss: 0.334578
+root - INFO - Train Epoch: 10 [3200/15500 (41%)]	Loss: 0.663993
+root - INFO - Train Epoch: 10 [4000/15500 (52%)]	Loss: 0.679813
+root - INFO - Train Epoch: 10 [4800/15500 (62%)]	Loss: 0.656339
+root - INFO - Train Epoch: 10 [5600/15500 (72%)]	Loss: 0.691048
+root - INFO - Train Epoch: 10 [6400/15500 (82%)]	Loss: 0.684084
+root - INFO - Train Epoch: 10 [7200/15500 (93%)]	Loss: 0.713378
+root - INFO - Class 0 枪支部件: Precision: 0.5767, Recall: 0.9898, F1: 0.7288
+root - INFO - Class 1 枪支: Precision: 0.7314, Recall: 0.9943, F1: 0.8428
+root - INFO - Class 2 刀具: Precision: 0.4306, Recall: 1.0000, F1: 0.6019
+root - INFO - Class 3 打火机: Precision: 0.2448, Recall: 0.1288, F1: 0.1688
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5750, Recall: 0.7657, F1: 0.6568
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 11 is starting
+root - INFO - Train Epoch: 11 [0/15500 (0%)]	Loss: 0.653250
+root - INFO - Train Epoch: 11 [800/15500 (10%)]	Loss: 0.333756
+root - INFO - Train Epoch: 11 [1600/15500 (21%)]	Loss: 0.333914
+root - INFO - Train Epoch: 11 [2400/15500 (31%)]	Loss: 0.336830
+root - INFO - Train Epoch: 11 [3200/15500 (41%)]	Loss: 0.663516
+root - INFO - Train Epoch: 11 [4000/15500 (52%)]	Loss: 0.680011
+root - INFO - Train Epoch: 11 [4800/15500 (62%)]	Loss: 0.655618
+root - INFO - Train Epoch: 11 [5600/15500 (72%)]	Loss: 0.691877
+root - INFO - Train Epoch: 11 [6400/15500 (82%)]	Loss: 0.686196
+root - INFO - Train Epoch: 11 [7200/15500 (93%)]	Loss: 0.714437
+root - INFO - Class 0 枪支部件: Precision: 0.5779, Recall: 0.9919, F1: 0.7303
+root - INFO - Class 1 枪支: Precision: 0.7339, Recall: 0.9979, F1: 0.8458
+root - INFO - Class 2 刀具: Precision: 0.4305, Recall: 0.9995, F1: 0.6018
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 0.5000, Recall: 0.0006, F1: 0.0012
+root - INFO - Overall: Precision: 0.5933, Recall: 0.7517, F1: 0.6632
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 12 is starting
+root - INFO - Train Epoch: 12 [0/15500 (0%)]	Loss: 0.594188
+root - INFO - Train Epoch: 12 [800/15500 (10%)]	Loss: 0.333462
+root - INFO - Train Epoch: 12 [1600/15500 (21%)]	Loss: 0.340471
+root - INFO - Train Epoch: 12 [2400/15500 (31%)]	Loss: 0.340242
+root - INFO - Train Epoch: 12 [3200/15500 (41%)]	Loss: 0.663151
+root - INFO - Train Epoch: 12 [4000/15500 (52%)]	Loss: 0.680224
+root - INFO - Train Epoch: 12 [4800/15500 (62%)]	Loss: 0.655026
+root - INFO - Train Epoch: 12 [5600/15500 (72%)]	Loss: 0.691074
+root - INFO - Train Epoch: 12 [6400/15500 (82%)]	Loss: 0.684543
+root - INFO - Train Epoch: 12 [7200/15500 (93%)]	Loss: 0.715348
+root - INFO - Class 0 枪支部件: Precision: 0.5799, Recall: 0.9946, F1: 0.7326
+root - INFO - Class 1 枪支: Precision: 0.7357, Recall: 0.9987, F1: 0.8473
+root - INFO - Class 2 刀具: Precision: 0.4308, Recall: 1.0000, F1: 0.6022
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5946, Recall: 0.7527, F1: 0.6644
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 13 is starting
+root - INFO - Train Epoch: 13 [0/15500 (0%)]	Loss: 0.597147
+root - INFO - Train Epoch: 13 [800/15500 (10%)]	Loss: 0.330778
+root - INFO - Train Epoch: 13 [1600/15500 (21%)]	Loss: 0.339624
+root - INFO - Train Epoch: 13 [2400/15500 (31%)]	Loss: 0.329535
+root - INFO - Train Epoch: 13 [3200/15500 (41%)]	Loss: 0.662862
+root - INFO - Train Epoch: 13 [4000/15500 (52%)]	Loss: 0.680427
+root - INFO - Train Epoch: 13 [4800/15500 (62%)]	Loss: 0.654552
+root - INFO - Train Epoch: 13 [5600/15500 (72%)]	Loss: 0.693411
+root - INFO - Train Epoch: 13 [6400/15500 (82%)]	Loss: 0.684632
+root - INFO - Train Epoch: 13 [7200/15500 (93%)]	Loss: 0.716165
+root - INFO - Class 0 枪支部件: Precision: 0.5807, Recall: 0.9962, F1: 0.7337
+root - INFO - Class 1 枪支: Precision: 0.7370, Recall: 0.9994, F1: 0.8484
+root - INFO - Class 2 刀具: Precision: 0.4306, Recall: 1.0000, F1: 0.6019
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Overall: Precision: 0.5953, Recall: 0.7534, F1: 0.6651
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 14 is starting
+root - INFO - Train Epoch: 14 [0/15500 (0%)]	Loss: 0.523622
+root - INFO - Train Epoch: 14 [800/15500 (10%)]	Loss: 0.337152
+root - INFO - Train Epoch: 14 [1600/15500 (21%)]	Loss: 0.338429
+root - INFO - Train Epoch: 14 [2400/15500 (31%)]	Loss: 0.329411
+root - INFO - Train Epoch: 14 [3200/15500 (41%)]	Loss: 0.662658
+root - INFO - Train Epoch: 14 [4000/15500 (52%)]	Loss: 0.680640
+root - INFO - Train Epoch: 14 [4800/15500 (62%)]	Loss: 0.654172
+root - INFO - Train Epoch: 14 [5600/15500 (72%)]	Loss: 0.692520
+root - INFO - Train Epoch: 14 [6400/15500 (82%)]	Loss: 0.684344
+root - INFO - Train Epoch: 14 [7200/15500 (93%)]	Loss: 0.716840
+root - INFO - Class 0 枪支部件: Precision: 0.5825, Recall: 0.9973, F1: 0.7354
+root - INFO - Class 1 枪支: Precision: 0.7389, Recall: 0.9996, F1: 0.8497
+root - INFO - Class 2 刀具: Precision: 0.4305, Recall: 0.9986, F1: 0.6016
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 0.5000, Recall: 0.0006, F1: 0.0012
+root - INFO - Overall: Precision: 0.5965, Recall: 0.7536, F1: 0.6659
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 15 is starting
+root - INFO - Train Epoch: 15 [0/15500 (0%)]	Loss: 0.542852
+root - INFO - Train Epoch: 15 [800/15500 (10%)]	Loss: 0.340071
+root - INFO - Train Epoch: 15 [1600/15500 (21%)]	Loss: 0.340604
+root - INFO - Train Epoch: 15 [2400/15500 (31%)]	Loss: 0.332201
+root - INFO - Train Epoch: 15 [3200/15500 (41%)]	Loss: 0.662509
+root - INFO - Train Epoch: 15 [4000/15500 (52%)]	Loss: 0.680849
+root - INFO - Train Epoch: 15 [4800/15500 (62%)]	Loss: 0.653878
+root - INFO - Train Epoch: 15 [5600/15500 (72%)]	Loss: 0.692681
+root - INFO - Train Epoch: 15 [6400/15500 (82%)]	Loss: 0.684585
+root - INFO - Train Epoch: 15 [7200/15500 (93%)]	Loss: 0.717452
+root - INFO - Class 0 枪支部件: Precision: 0.5823, Recall: 0.9970, F1: 0.7352
+root - INFO - Class 1 枪支: Precision: 0.7397, Recall: 0.9989, F1: 0.8500
+root - INFO - Class 2 刀具: Precision: 0.4313, Recall: 0.9981, F1: 0.6024
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 0.5000, Recall: 0.0006, F1: 0.0012
+root - INFO - Overall: Precision: 0.5970, Recall: 0.7532, F1: 0.6661
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 16 is starting
+root - INFO - Train Epoch: 16 [0/15500 (0%)]	Loss: 0.534837
+root - INFO - Train Epoch: 16 [800/15500 (10%)]	Loss: 0.333014
+root - INFO - Train Epoch: 16 [1600/15500 (21%)]	Loss: 0.338551
+root - INFO - Train Epoch: 16 [2400/15500 (31%)]	Loss: 0.330658
+root - INFO - Train Epoch: 16 [3200/15500 (41%)]	Loss: 0.662396
+root - INFO - Train Epoch: 16 [4000/15500 (52%)]	Loss: 0.681052
+root - INFO - Train Epoch: 16 [4800/15500 (62%)]	Loss: 0.653633
+root - INFO - Train Epoch: 16 [5600/15500 (72%)]	Loss: 0.694104
+root - INFO - Train Epoch: 16 [6400/15500 (82%)]	Loss: 0.685547
+root - INFO - Train Epoch: 16 [7200/15500 (93%)]	Loss: 0.717961
+root - INFO - Class 0 枪支部件: Precision: 0.5836, Recall: 0.9984, F1: 0.7367
+root - INFO - Class 1 枪支: Precision: 0.7393, Recall: 0.9992, F1: 0.8498
+root - INFO - Class 2 刀具: Precision: 0.4302, Recall: 0.9958, F1: 0.6008
+root - INFO - Class 3 打火机: Precision: 0.5000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5970, Recall: 0.7532, F1: 0.6661
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 17 is starting
+root - INFO - Train Epoch: 17 [0/15500 (0%)]	Loss: 0.525107
+root - INFO - Train Epoch: 17 [800/15500 (10%)]	Loss: 0.334879
+root - INFO - Train Epoch: 17 [1600/15500 (21%)]	Loss: 0.342017
+root - INFO - Train Epoch: 17 [2400/15500 (31%)]	Loss: 0.331158
+root - INFO - Train Epoch: 17 [3200/15500 (41%)]	Loss: 0.662313
+root - INFO - Train Epoch: 17 [4000/15500 (52%)]	Loss: 0.681239
+root - INFO - Train Epoch: 17 [4800/15500 (62%)]	Loss: 0.653423
+root - INFO - Train Epoch: 17 [5600/15500 (72%)]	Loss: 0.693698
+root - INFO - Train Epoch: 17 [6400/15500 (82%)]	Loss: 0.684971
+root - INFO - Train Epoch: 17 [7200/15500 (93%)]	Loss: 0.718421
+root - INFO - Class 0 枪支部件: Precision: 0.5830, Recall: 0.9981, F1: 0.7361
+root - INFO - Class 1 枪支: Precision: 0.7403, Recall: 0.9994, F1: 0.8506
+root - INFO - Class 2 刀具: Precision: 0.4308, Recall: 0.9991, F1: 0.6020
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0012, F1: 0.0023
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5971, Recall: 0.7538, F1: 0.6664
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5542, Recall: 1.0000, F1: 0.7132
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5542, Recall: 0.3136, F1: 0.4005
+root - INFO - Epoch 18 is starting
+root - INFO - Train Epoch: 18 [0/15500 (0%)]	Loss: 0.461239
+root - INFO - Train Epoch: 18 [800/15500 (10%)]	Loss: 0.332556
+root - INFO - Train Epoch: 18 [1600/15500 (21%)]	Loss: 0.335168
+root - INFO - Train Epoch: 18 [2400/15500 (31%)]	Loss: 0.330661
+root - INFO - Train Epoch: 18 [3200/15500 (41%)]	Loss: 0.662252
+root - INFO - Train Epoch: 18 [4000/15500 (52%)]	Loss: 0.681414
+root - INFO - Train Epoch: 18 [4800/15500 (62%)]	Loss: 0.653267
+root - INFO - Train Epoch: 18 [5600/15500 (72%)]	Loss: 0.695012
+root - INFO - Train Epoch: 18 [6400/15500 (82%)]	Loss: 0.685925
+root - INFO - Train Epoch: 18 [7200/15500 (93%)]	Loss: 0.718806
+root - INFO - Class 0 枪支部件: Precision: 0.5841, Recall: 0.9989, F1: 0.7372
+root - INFO - Class 1 枪支: Precision: 0.7404, Recall: 1.0000, F1: 0.8508
+root - INFO - Class 2 刀具: Precision: 0.4306, Recall: 1.0000, F1: 0.6019
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5975, Recall: 0.7543, F1: 0.6668
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5535, Recall: 1.0000, F1: 0.7126
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5535, Recall: 0.3136, F1: 0.4004
+root - INFO - Epoch 19 is starting
+root - INFO - Train Epoch: 19 [0/15500 (0%)]	Loss: 0.412854
+root - INFO - Train Epoch: 19 [800/15500 (10%)]	Loss: 0.332727
+root - INFO - Train Epoch: 19 [1600/15500 (21%)]	Loss: 0.340450
+root - INFO - Train Epoch: 19 [2400/15500 (31%)]	Loss: 0.329161
+root - INFO - Train Epoch: 19 [3200/15500 (41%)]	Loss: 0.661874
+root - INFO - Train Epoch: 19 [4000/15500 (52%)]	Loss: 0.681559
+root - INFO - Train Epoch: 19 [4800/15500 (62%)]	Loss: 0.653174
+root - INFO - Train Epoch: 19 [5600/15500 (72%)]	Loss: 0.693641
+root - INFO - Train Epoch: 19 [6400/15500 (82%)]	Loss: 0.685055
+root - INFO - Train Epoch: 19 [7200/15500 (93%)]	Loss: 0.719122
+root - INFO - Class 0 枪支部件: Precision: 0.5843, Recall: 0.9997, F1: 0.7375
+root - INFO - Class 1 枪支: Precision: 0.7409, Recall: 0.9994, F1: 0.8510
+root - INFO - Class 2 刀具: Precision: 0.4307, Recall: 1.0000, F1: 0.6020
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5977, Recall: 0.7542, F1: 0.6669
+root - INFO - Class 0 枪支部件: Precision: 0.6667, Recall: 0.0043, F1: 0.0085
+root - INFO - Class 1 枪支: Precision: 0.5550, Recall: 0.9978, F1: 0.7133
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5554, Recall: 0.3143, F1: 0.4014
+root - INFO - Epoch 20 is starting
+root - INFO - Train Epoch: 20 [0/15500 (0%)]	Loss: 0.416933
+root - INFO - Train Epoch: 20 [800/15500 (10%)]	Loss: 0.345169
+root - INFO - Train Epoch: 20 [1600/15500 (21%)]	Loss: 0.331692
+root - INFO - Train Epoch: 20 [2400/15500 (31%)]	Loss: 0.328456
+root - INFO - Train Epoch: 20 [3200/15500 (41%)]	Loss: 0.662171
+root - INFO - Train Epoch: 20 [4000/15500 (52%)]	Loss: 0.681694
+root - INFO - Train Epoch: 20 [4800/15500 (62%)]	Loss: 0.653056
+root - INFO - Train Epoch: 20 [5600/15500 (72%)]	Loss: 0.694131
+root - INFO - Train Epoch: 20 [6400/15500 (82%)]	Loss: 0.685090
+root - INFO - Train Epoch: 20 [7200/15500 (93%)]	Loss: 0.719404
+root - INFO - Class 0 枪支部件: Precision: 0.5841, Recall: 0.9997, F1: 0.7374
+root - INFO - Class 1 枪支: Precision: 0.7413, Recall: 1.0000, F1: 0.8514
+root - INFO - Class 2 刀具: Precision: 0.4305, Recall: 0.9995, F1: 0.6018
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5977, Recall: 0.7544, F1: 0.6670
+root - INFO - Class 0 枪支部件: Precision: 1.0000, Recall: 0.0043, F1: 0.0085
+root - INFO - Class 1 枪支: Precision: 0.5556, Recall: 1.0000, F1: 0.7143
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5566, Recall: 0.3150, F1: 0.4023
+root - INFO - Epoch 21 is starting
+root - INFO - Train Epoch: 21 [0/15500 (0%)]	Loss: 0.387297
+root - INFO - Train Epoch: 21 [800/15500 (10%)]	Loss: 0.332748
+root - INFO - Train Epoch: 21 [1600/15500 (21%)]	Loss: 0.334762
+root - INFO - Train Epoch: 21 [2400/15500 (31%)]	Loss: 0.332585
+root - INFO - Train Epoch: 21 [3200/15500 (41%)]	Loss: 0.662157
+root - INFO - Train Epoch: 21 [4000/15500 (52%)]	Loss: 0.681830
+root - INFO - Train Epoch: 21 [4800/15500 (62%)]	Loss: 0.652968
+root - INFO - Train Epoch: 21 [5600/15500 (72%)]	Loss: 0.693920
+root - INFO - Train Epoch: 21 [6400/15500 (82%)]	Loss: 0.685263
+root - INFO - Train Epoch: 21 [7200/15500 (93%)]	Loss: 0.719644
+root - INFO - Class 0 枪支部件: Precision: 0.5847, Recall: 0.9997, F1: 0.7379
+root - INFO - Class 1 枪支: Precision: 0.7421, Recall: 1.0000, F1: 0.8520
+root - INFO - Class 2 刀具: Precision: 0.4304, Recall: 0.9995, F1: 0.6018
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5981, Recall: 0.7544, F1: 0.6672
+root - INFO - Class 0 枪支部件: Precision: 0.8571, Recall: 0.0129, F1: 0.0254
+root - INFO - Class 1 枪支: Precision: 0.5577, Recall: 0.9978, F1: 0.7155
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5603, Recall: 0.3170, F1: 0.4049
+root - INFO - Epoch 22 is starting
+root - INFO - Train Epoch: 22 [0/15500 (0%)]	Loss: 0.383762
+root - INFO - Train Epoch: 22 [800/15500 (10%)]	Loss: 0.333585
+root - INFO - Train Epoch: 22 [1600/15500 (21%)]	Loss: 0.334636
+root - INFO - Train Epoch: 22 [2400/15500 (31%)]	Loss: 0.332085
+root - INFO - Train Epoch: 22 [3200/15500 (41%)]	Loss: 0.662144
+root - INFO - Train Epoch: 22 [4000/15500 (52%)]	Loss: 0.681937
+root - INFO - Train Epoch: 22 [4800/15500 (62%)]	Loss: 0.652913
+root - INFO - Train Epoch: 22 [5600/15500 (72%)]	Loss: 0.681582
+root - INFO - Train Epoch: 22 [6400/15500 (82%)]	Loss: 0.686271
+root - INFO - Train Epoch: 22 [7200/15500 (93%)]	Loss: 0.719857
+root - INFO - Class 0 枪支部件: Precision: 0.5847, Recall: 1.0000, F1: 0.7379
+root - INFO - Class 1 枪支: Precision: 0.7416, Recall: 1.0000, F1: 0.8517
+root - INFO - Class 2 刀具: Precision: 0.4309, Recall: 1.0000, F1: 0.6023
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5982, Recall: 0.7546, F1: 0.6674
+root - INFO - Class 0 枪支部件: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 1 枪支: Precision: 0.5543, Recall: 0.9978, F1: 0.7127
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5543, Recall: 0.3129, F1: 0.4000
+root - INFO - Epoch 23 is starting
+root - INFO - Train Epoch: 23 [0/15500 (0%)]	Loss: 0.407028
+root - INFO - Train Epoch: 23 [800/15500 (10%)]	Loss: 0.332548
+root - INFO - Train Epoch: 23 [1600/15500 (21%)]	Loss: 0.332589
+root - INFO - Train Epoch: 23 [2400/15500 (31%)]	Loss: 0.333344
+root - INFO - Train Epoch: 23 [3200/15500 (41%)]	Loss: 0.662135
+root - INFO - Train Epoch: 23 [4000/15500 (52%)]	Loss: 0.682029
+root - INFO - Train Epoch: 23 [4800/15500 (62%)]	Loss: 0.652859
+root - INFO - Train Epoch: 23 [5600/15500 (72%)]	Loss: 0.695860
+root - INFO - Train Epoch: 23 [6400/15500 (82%)]	Loss: 0.685292
+root - INFO - Train Epoch: 23 [7200/15500 (93%)]	Loss: 0.720024
+root - INFO - Class 0 枪支部件: Precision: 0.5847, Recall: 0.9997, F1: 0.7379
+root - INFO - Class 1 枪支: Precision: 0.7414, Recall: 1.0000, F1: 0.8515
+root - INFO - Class 2 刀具: Precision: 0.4306, Recall: 0.9995, F1: 0.6019
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5980, Recall: 0.7544, F1: 0.6672
+root - INFO - Class 0 枪支部件: Precision: 1.0000, Recall: 0.0021, F1: 0.0043
+root - INFO - Class 1 枪支: Precision: 0.5550, Recall: 0.9978, F1: 0.7133
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5556, Recall: 0.3136, F1: 0.4009
+root - INFO - Epoch 24 is starting
+root - INFO - Train Epoch: 24 [0/15500 (0%)]	Loss: 0.375195
+root - INFO - Train Epoch: 24 [800/15500 (10%)]	Loss: 0.328835
+root - INFO - Train Epoch: 24 [1600/15500 (21%)]	Loss: 0.333810
+root - INFO - Train Epoch: 24 [2400/15500 (31%)]	Loss: 0.334954
+root - INFO - Train Epoch: 24 [3200/15500 (41%)]	Loss: 0.662130
+root - INFO - Train Epoch: 24 [4000/15500 (52%)]	Loss: 0.682130
+root - INFO - Train Epoch: 24 [4800/15500 (62%)]	Loss: 0.652830
+root - INFO - Train Epoch: 24 [5600/15500 (72%)]	Loss: 0.693411
+root - INFO - Train Epoch: 24 [6400/15500 (82%)]	Loss: 0.685732
+root - INFO - Train Epoch: 24 [7200/15500 (93%)]	Loss: 0.720161
+root - INFO - Class 0 枪支部件: Precision: 0.5853, Recall: 1.0000, F1: 0.7384
+root - INFO - Class 1 枪支: Precision: 0.7417, Recall: 1.0000, F1: 0.8517
+root - INFO - Class 2 刀具: Precision: 0.4307, Recall: 1.0000, F1: 0.6020
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5984, Recall: 0.7545, F1: 0.6674
+root - INFO - Class 0 枪支部件: Precision: 1.0000, Recall: 0.0043, F1: 0.0085
+root - INFO - Class 1 枪支: Precision: 0.5576, Recall: 1.0000, F1: 0.7160
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5587, Recall: 0.3150, F1: 0.4028
+root - INFO - Epoch 25 is starting
+root - INFO - Train Epoch: 25 [0/15500 (0%)]	Loss: 0.358778
+root - INFO - Train Epoch: 25 [800/15500 (10%)]	Loss: 0.335865
+root - INFO - Train Epoch: 25 [1600/15500 (21%)]	Loss: 0.331686
+root - INFO - Train Epoch: 25 [2400/15500 (31%)]	Loss: 0.330047
+root - INFO - Train Epoch: 25 [3200/15500 (41%)]	Loss: 0.662125
+root - INFO - Train Epoch: 25 [4000/15500 (52%)]	Loss: 0.682202
+root - INFO - Train Epoch: 25 [4800/15500 (62%)]	Loss: 0.652762
+root - INFO - Train Epoch: 25 [5600/15500 (72%)]	Loss: 0.696247
+root - INFO - Train Epoch: 25 [6400/15500 (82%)]	Loss: 0.685676
+root - INFO - Train Epoch: 25 [7200/15500 (93%)]	Loss: 0.720310
+root - INFO - Class 0 枪支部件: Precision: 0.5847, Recall: 1.0000, F1: 0.7379
+root - INFO - Class 1 枪支: Precision: 0.7424, Recall: 1.0000, F1: 0.8522
+root - INFO - Class 2 刀具: Precision: 0.4306, Recall: 1.0000, F1: 0.6019
+root - INFO - Class 3 打火机: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5983, Recall: 0.7546, F1: 0.6674
+root - INFO - Class 0 枪支部件: Precision: 1.0000, Recall: 0.0021, F1: 0.0043
+root - INFO - Class 1 枪支: Precision: 0.5545, Recall: 0.9956, F1: 0.7123
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5550, Recall: 0.3129, F1: 0.4002
+root - INFO - Epoch 26 is starting
+root - INFO - Train Epoch: 26 [0/15500 (0%)]	Loss: 0.380403
+root - INFO - Train Epoch: 26 [800/15500 (10%)]	Loss: 0.331770
+root - INFO - Train Epoch: 26 [1600/15500 (21%)]	Loss: 0.337698
+root - INFO - Train Epoch: 26 [2400/15500 (31%)]	Loss: 0.333578
+root - INFO - Train Epoch: 26 [3200/15500 (41%)]	Loss: 0.662123
+root - INFO - Train Epoch: 26 [4000/15500 (52%)]	Loss: 0.682269
+root - INFO - Train Epoch: 26 [4800/15500 (62%)]	Loss: 0.652736
+root - INFO - Train Epoch: 26 [5600/15500 (72%)]	Loss: 0.694476
+root - INFO - Train Epoch: 26 [6400/15500 (82%)]	Loss: 0.684848
+root - INFO - Train Epoch: 26 [7200/15500 (93%)]	Loss: 0.720419
+root - INFO - Class 0 枪支部件: Precision: 0.5851, Recall: 1.0000, F1: 0.7383
+root - INFO - Class 1 枪支: Precision: 0.7421, Recall: 1.0000, F1: 0.8520
+root - INFO - Class 2 刀具: Precision: 0.4305, Recall: 1.0000, F1: 0.6019
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5983, Recall: 0.7545, F1: 0.6674
+root - INFO - Class 0 枪支部件: Precision: 1.0000, Recall: 0.0043, F1: 0.0085
+root - INFO - Class 1 枪支: Precision: 0.5545, Recall: 0.9956, F1: 0.7123
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5556, Recall: 0.3136, F1: 0.4009
+root - INFO - Epoch 27 is starting
+root - INFO - Train Epoch: 27 [0/15500 (0%)]	Loss: 0.359281
+root - INFO - Train Epoch: 27 [800/15500 (10%)]	Loss: 0.332106
+root - INFO - Train Epoch: 27 [1600/15500 (21%)]	Loss: 0.331781
+root - INFO - Train Epoch: 27 [2400/15500 (31%)]	Loss: 0.329312
+root - INFO - Train Epoch: 27 [3200/15500 (41%)]	Loss: 0.662123
+root - INFO - Train Epoch: 27 [4000/15500 (52%)]	Loss: 0.682344
+root - INFO - Train Epoch: 27 [4800/15500 (62%)]	Loss: 0.652704
+root - INFO - Train Epoch: 27 [5600/15500 (72%)]	Loss: 0.693804
+root - INFO - Train Epoch: 27 [6400/15500 (82%)]	Loss: 0.686608
+root - INFO - Train Epoch: 27 [7200/15500 (93%)]	Loss: 0.720513
+root - INFO - Class 0 枪支部件: Precision: 0.5852, Recall: 1.0000, F1: 0.7384
+root - INFO - Class 1 枪支: Precision: 0.7424, Recall: 1.0000, F1: 0.8522
+root - INFO - Class 2 刀具: Precision: 0.4307, Recall: 1.0000, F1: 0.6020
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Overall: Precision: 0.5986, Recall: 0.7546, F1: 0.6676
+root - INFO - Class 0 枪支部件: Precision: 0.7143, Recall: 0.0215, F1: 0.0417
+root - INFO - Class 1 枪支: Precision: 0.5593, Recall: 0.9846, F1: 0.7134
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5620, Recall: 0.3156, F1: 0.4042
+root - INFO - Epoch 28 is starting
+root - INFO - Train Epoch: 28 [0/15500 (0%)]	Loss: 0.377160
+root - INFO - Train Epoch: 28 [800/15500 (10%)]	Loss: 0.330266
+root - INFO - Train Epoch: 28 [1600/15500 (21%)]	Loss: 0.331441
+root - INFO - Train Epoch: 28 [2400/15500 (31%)]	Loss: 0.329756
+root - INFO - Train Epoch: 28 [3200/15500 (41%)]	Loss: 0.662142
+root - INFO - Train Epoch: 28 [4000/15500 (52%)]	Loss: 0.682411
+root - INFO - Train Epoch: 28 [4800/15500 (62%)]	Loss: 0.652704
+root - INFO - Train Epoch: 28 [5600/15500 (72%)]	Loss: 0.693081
+root - INFO - Train Epoch: 28 [6400/15500 (82%)]	Loss: 0.685456
+root - INFO - Train Epoch: 28 [7200/15500 (93%)]	Loss: 0.720598
+root - INFO - Class 0 枪支部件: Precision: 0.5850, Recall: 1.0000, F1: 0.7381
+root - INFO - Class 1 枪支: Precision: 0.7422, Recall: 1.0000, F1: 0.8520
+root - INFO - Class 2 刀具: Precision: 0.4308, Recall: 0.9991, F1: 0.6020
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 1.0000, Recall: 0.0006, F1: 0.0012
+root - INFO - Overall: Precision: 0.5985, Recall: 0.7544, F1: 0.6675
+root - INFO - Class 0 枪支部件: Precision: 0.7778, Recall: 0.0150, F1: 0.0295
+root - INFO - Class 1 枪支: Precision: 0.5568, Recall: 0.9912, F1: 0.7130
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5592, Recall: 0.3156, F1: 0.4035
+root - INFO - Epoch 29 is starting
+root - INFO - Train Epoch: 29 [0/15500 (0%)]	Loss: 0.370218
+root - INFO - Train Epoch: 29 [800/15500 (10%)]	Loss: 0.336552
+root - INFO - Train Epoch: 29 [1600/15500 (21%)]	Loss: 0.333339
+root - INFO - Train Epoch: 29 [2400/15500 (31%)]	Loss: 0.331264
+root - INFO - Train Epoch: 29 [3200/15500 (41%)]	Loss: 0.662150
+root - INFO - Train Epoch: 29 [4000/15500 (52%)]	Loss: 0.682459
+root - INFO - Train Epoch: 29 [4800/15500 (62%)]	Loss: 0.652692
+root - INFO - Train Epoch: 29 [5600/15500 (72%)]	Loss: 0.693605
+root - INFO - Train Epoch: 29 [6400/15500 (82%)]	Loss: 0.685708
+root - INFO - Train Epoch: 29 [7200/15500 (93%)]	Loss: 0.720664
+root - INFO - Class 0 枪支部件: Precision: 0.5855, Recall: 1.0000, F1: 0.7386
+root - INFO - Class 1 枪支: Precision: 0.7420, Recall: 1.0000, F1: 0.8519
+root - INFO - Class 2 刀具: Precision: 0.4307, Recall: 1.0000, F1: 0.6021
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5985, Recall: 0.7545, F1: 0.6675
+root - INFO - Class 0 枪支部件: Precision: 0.5000, Recall: 0.0021, F1: 0.0043
+root - INFO - Class 1 枪支: Precision: 0.5558, Recall: 0.9956, F1: 0.7134
+root - INFO - Class 2 刀具: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 3 打火机: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Class 4 充电宝锂电池: Precision: 0.0000, Recall: 0.0000, F1: 0.0000
+root - INFO - Overall: Precision: 0.5557, Recall: 0.3129, F1: 0.4004
