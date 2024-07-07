@@ -5,3 +5,4 @@ visualize/
 utils/__pycache__/
 net/__pycache__/
 data/__pycache__/
+data/*.txt
